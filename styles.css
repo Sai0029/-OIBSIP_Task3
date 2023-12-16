@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('g2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .converter-container {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label, input, select, button {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #b57659;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a07545;
+  }
+  
+  #resultArea {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
